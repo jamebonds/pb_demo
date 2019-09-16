@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "powerbank",
+    "slug": "pb-demo1",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "width":"225",
+      "height":"225"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    
+    "ios": {
+      "bundleIdentifier": "com.n4nw4ll0p.pbdemo",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.n4nw4ll0p.pbdemo"
+    }
+  }
+}
